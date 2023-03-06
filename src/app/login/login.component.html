@@ -3,15 +3,15 @@
         <form class="row g-3">
               <h1>Login</h1>
               <label for="staticUsuario" class="visually-hidden">Usuário</label>
-              <input type="text"  class="form-control" id="staticUsuario" placeholder="email@examplo.com">
+              <input type="text" name="usuario" [(ngModel)]="usuario" class="form-control" id="staticUsuario" placeholder="email@examplo.com">
             
             <br>
             
               <label for="inputPassword2" class="visually-hidden">Senha</label>
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Senha">
+              <input type="password" name="senha" [(ngModel)]="senha"  class="form-control" id="inputPassword2" placeholder="Senha">
             
             
-              <button type="submit" class="btn btn-primary mb-3">Login</button>
+              <button type="submit" class="btn btn-primary mb-3" (click)="fazerLogin()">Login</button>
             
           </form>
     </section>

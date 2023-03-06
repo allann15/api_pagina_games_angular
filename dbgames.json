@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "jogo 1",
+      "descricao": "Descrição do jogo 1",
+      "foto": "godofwar.PNG",
+      "preco": 400
+    },
+    {
+      "id": 2,
+      "produto": "jogo 2",
+      "descricao": "Descrição do jogo 2",
+      "foto": "jogo2.PNG",
+      "preco": 200
+    },
+    {
+      "id": 3,
+      "produto": "jogo 3",
+      "descricao": "Descrição do jogo 3",
+      "foto": "jogo3.PNG",
+      "preco": 280
+    },
+    {
+      "id": 4,
+      "produto": "God Of War",
+      "descricao": "Descrição God Of Dar",
+      "foto": "godofwar.PNG",
+      "preco": 200
+    }
+  ]
+}
